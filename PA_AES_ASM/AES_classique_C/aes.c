@@ -99,7 +99,6 @@ void addRoundKey(uint8_t round_)
 void shiftRows(void)
 {
 	uint8_t tmp;
-
 	/*1re ligne : 1 rot à gauche*/
 	tmp = state[0][1];
 	state[0][1] = state [1][1];
@@ -122,6 +121,7 @@ void shiftRows(void)
 	state[3][3] = state[2][3];
 	state[2][3] = state[1][3];
 	state[1][3] = tmp;
+
 }
 
 void subBytes(void)
