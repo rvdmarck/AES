@@ -3,7 +3,7 @@
 Ce projet est une implémentation d'AES en AVR pour atmega328p
 
 ## Utilisation:
-Pour uplauder le projet sur l'arduino:
+Pour uploader le projet sur l'arduino:
 
     make push
 
